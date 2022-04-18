@@ -1,0 +1,44 @@
+Algortima Memasak air 
+1. mulai
+2. masukkan air ke panci
+3. taruh panci diatas kompor
+4. nyalakan kompor
+5. tunggu air matang, matikan kompor
+6. tuangkan air dalam teko / termos
+7. selesai
+
+Algoritma Memindahkan air
+1. mulai
+2. siapkan gelas kosong
+3. tuangkan segelas air teh kedalam gelas kosong
+4. jika gelas A sudah kosong, masukkan air kopi dalam B ke dalam gelas A
+5. masukkan air teh dalam gelas kosong, ke dalam gelas B
+6. selesai
+
+Algoritma Menghitung Luas / keliling Lingkaran
+1. Mulai
+2. Masukkan jari-jari lingkaran
+3. tetapkan phi = 3.14
+4. hitung hasil luas lingkaran dengan 3.14 x jari x jari
+5. hitung hasil keliling lingkaran dengan 3.14 x 2 x jari
+6. tampilkan hasil luas lingkaran dan keliling
+7. selesai   
+
+Algoritma Pengecekan Lebih besar
+1. mulai
+2. masukkan nilai x
+3. masukkan nilai y
+4. cek nilai x > y
+5. jika "ya" tampilkan "x terbesar"
+6. jika "tidak" , cek kembali nilai x = y
+7. jika "ya" tampilkan "x dan y sama besar                "
+8. jika "tidak" tampilkan "y terbesar"
+9. selesai
+
+Algoritma ganjil genap
+1. mulai
+2. masukkan nilai x
+3. cek nilai sisa x dibagi 2 = 0
+4. jika "ya" tampilkan "genap"
+5. jika "tidak" tampilkan "ganjil"
+6. selesai 

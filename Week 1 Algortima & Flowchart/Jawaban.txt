@@ -1,0 +1,27 @@
+Algoritma Menggoreng Telur
+1. Siapkan telur, Wajan, minyak, kompor, piring, dan spatula.
+2. taruh wajan diatas kompor dan nyalakan kompor
+3. masukkan minyak kedalam wajan
+4. apabila minyak telah panas,  
+pecahkan telur dan masukkan telur kedalam wajan
+apabila belum panas, tunggu sampai minyak panas
+5. tunggu telur matang, apabila sisi bawah sudah matang, balik dengan spatula, apabila belum matang, tunggu bagian bawah matang
+6. apabila kedua sisi telur sudah matang, matikan kompor.
+apabila belum matang, tunggu sampai matang
+7. angkat telur dari wajan
+8. taruh telur diatas piring.
+9. telur siap
+
+Algoritma Reverse String
+1. buatlah variabel berupa string contoh stringAwal
+2. buat variabel berupa string kosong untuk menempatkan string baru
+3. lakukan perulangan decrement / penurunan dengan ketentuan
+angka tertinggi yaitu jumlah karakter string - 1
+angka terendah yaitu 0
+dan angka dikurangi 1 tiap perulangan
+4. lakukan penambahan karakter stringawal index terbesar kedalam string kosong
+5. ulangi proses 4 sampai karakter index terkecil yaitu 0 ke string kosong
+6. cetak string yang telah diisi oleh karakter tersebut.
+7. Reverse string siap
+
+code di vscode 
