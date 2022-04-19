@@ -43,10 +43,12 @@
 
 // 8. concat(element / value) => return array
 // method ini menambahkan value / menggabungkan array
-// const array1 = [1,2,3];
-// const array2 = [4,5,6];
-// const array3 = array1.concat(array2);
-// console.log(array3)
+const array1 = [1,2,3];
+const array2 = [4,5,6];
+const array3 = array1.concat(array2);
+console.log(array3)
+console.log(array1);
+console.log(array2);
 
 // 9. pop() => return data dalam array
 // method ini digunakan untuk mengambil data dari array yang terakhir
