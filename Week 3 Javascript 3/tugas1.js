@@ -23,12 +23,12 @@ cekHariKerja('minggu')
     console.log(data))
 
 // menggunakan try dan catch
-// const result = async () => {
+// const result = async (day) => {
 //     try {
-//         const data = await cekHariKerja('jumat')
+//         const data = await cekHariKerja(day)
 //         console.log(`${data} adalah hari kerja`)
 //     }catch(err){
 //         console.log(err)
 //     }
 // }
-// result()
+// result("minggu")

@@ -1,4 +1,4 @@
-const cekKehadiran = (nama) => {
+const cekKehadiran = (nama,durasi) => {
     return new Promise((resolve, reject) => {
         setTimeout(()=>{
             const dataSiswa = ['islah','udin','muhammad','budi','jon'];
@@ -8,7 +8,7 @@ const cekKehadiran = (nama) => {
             }else{
                 reject(new Error('Tidak Hadir'))
             }
-        }, 3000)
+        }, durasi)
     })
 }
 
