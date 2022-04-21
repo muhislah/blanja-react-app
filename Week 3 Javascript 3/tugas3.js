@@ -1,4 +1,4 @@
-const cekKehadiran = (nama,durasi) => {
+const cekKehadiran = (nama) => {
     return new Promise((resolve, reject) => {
         setTimeout(()=>{
             const dataSiswa = ['islah','udin','muhammad','budi','jon'];
@@ -8,19 +8,21 @@ const cekKehadiran = (nama,durasi) => {
             }else{
                 reject(new Error('Tidak Hadir'))
             }
-        }, durasi)
+        }, 3000)
     })
 }
 
-const result = async () => {
+const result = async (nama1, nama2) => {
     try {
-        const data = await cekKehadiran('budi');
-        console.log(`${data} Hadir`)
+        const data = await cekKehadiran(nama1);
+        const data2 = await cekKehadiran(nama2)
+        console.log(`${data} dan ${data2} Hadir`)
     } catch(error){
         console.log(error)
     }
 }
-result()
+result('islah','tony')
+
 
 
 // const cariFilm = (namaFilm) => {

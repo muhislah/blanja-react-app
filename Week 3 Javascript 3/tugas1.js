@@ -15,20 +15,20 @@ const cekHariKerja = (day) => {
 }
 
 // menggunakan then dan catch
-cekHariKerja('minggu')
-.then(data => {
-    console.log(`${data} adalah hari kerja`);
-})
-.catch(data =>
-    console.log(data))
+// cekHariKerja('senin')
+// .then(data => {
+//     console.log(`${data} adalah hari kerja`);
+// })
+// .catch(data =>
+//     console.log(data))
 
 // menggunakan try dan catch
-// const result = async (day) => {
-//     try {
-//         const data = await cekHariKerja(day)
-//         console.log(`${data} adalah hari kerja`)
-//     }catch(err){
-//         console.log(err)
-//     }
-// }
-// result("minggu")
+const result = async (day) => {
+    try {
+        const data = await cekHariKerja(day)
+        console.log(`${data} adalah hari kerja`)
+    }catch(err){
+        console.log(err)
+    }
+}
+result("senin")
