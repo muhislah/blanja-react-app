@@ -1,4 +1,4 @@
-kataAwal = "kasur ini rusak";
+kataAwal = "kasur ini rusa";
 kataAkhir = "";
 for ( x = kataAwal.length-1 ; x >=0 ; x--){
     kataAkhir += kataAwal[x];
