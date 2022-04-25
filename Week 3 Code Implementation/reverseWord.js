@@ -10,7 +10,7 @@ for (let x = 0; x < kalimat.length; x++) {
 } // result [array of index of Letak Huruf Awal] // [0,4,10]
 
 let kalimatAkhir = ""; // menampung kalimat akhir
-for (a = letakHurufAwal.length - 1; a >= 0; a--) {
+for (a = letakHurufAwal.length - 1; a >= 0; a--) {  // looping dari akhir
     let str = "";
     if (a == letakHurufAwal.length - 1) { // jika kata terakhir
         for (y = letakHurufAwal[a]; y <= kalimat.length - 1; y++) {
