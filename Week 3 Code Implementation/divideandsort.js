@@ -10,6 +10,8 @@ function divideAndSort(number){
     return console.log(+hasil); // +data is change string to number
 }
 
+divideAndSort(5956560159466056)
+
 // function divideAndSort(number){
 //     let string = number.toString() // change data to string
 //     let data =  string.split("0") // result array of string numbers
@@ -23,4 +25,3 @@ function divideAndSort(number){
 //     return console.log(+hasil); // +data is change string to number
 // }
 
-divideAndSort(5956560159466056)
