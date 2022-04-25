@@ -7,12 +7,12 @@ function pijarFood(harga, voucher, jarak, pajak){
     } else {
         biayaAntar = 5000;
     }
-    if (voucher === "PIJARFOOD5" && harga > 50000){
+    if (voucher === "PIJARFOOD5" && harga >= 50000){
         potongan = 0.5 * harga ;
         if ( potongan > 50000){
             potongan = 50000
         }
-    } else if (voucher === "DITRAKTIRPIJAR" && harga > 25000){
+    } else if (voucher === "DITRAKTIRPIJAR" && harga >= 25000){
         potongan = 0.6 * harga;
         if ( potongan > 30000){
             potongan = 30000
@@ -34,4 +34,3 @@ function pijarFood(harga, voucher, jarak, pajak){
 }
 
 pijarFood(75000,"PIJARFOOD5",5,true)
-pijarFood(50000,"DITRAKTIRPIJAR",10,false)
