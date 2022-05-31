@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import style from './Header.module.css'
 import logo from '../../page/logo.svg'
 import searchicon from './search.svg'
@@ -14,8 +14,6 @@ const Header = () => {
    function handleSearch() {
       setSearchParam({search : search})
    }
-
-
 
   return {
      searchParam,

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import { Navigate, Outlet, useNavigate } from 'react-router-dom'
+import { Outlet, useNavigate } from 'react-router-dom'
 import style from './User.module.css'
 import logo from './logo.svg'
-import { getValue } from '@testing-library/user-event/dist/utils'
+
 
 const User = ({user}) => {
   const navigate = useNavigate()

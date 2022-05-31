@@ -1,6 +1,4 @@
-import {BrowserRouter, Routes , Route, NavLink, Navigate} from 'react-router-dom'
-import Button from './component/Button/Button';
-import Input from './component/Input/Input';
+import {BrowserRouter, Routes , Route} from 'react-router-dom'
 import Home from './page/Home';
 import User from './page/User';
 import LoginCustomer from './page/Users/LoginCustomer';
