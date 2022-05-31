@@ -1,0 +1,93 @@
+.header {
+   position: fixed;
+   height: 80px;
+   width: 100%;
+   top:0;
+   left: 0;
+   box-sizing: border-box;
+   box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+   background-color: white;
+}
+.logo > img {
+   width: 32px;
+   height: 44px;
+}
+.title {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 20px;
+   color: #DB3022;
+   margin-left: 10px;
+   position: relative;
+   top: 6px;
+}
+.container {
+   width: 80%;
+   display: flex;
+   flex-direction: row;
+   margin: 0 auto;
+   justify-content: space-between;
+}
+.logo , .search , .menu{
+   display: inline-flex;
+   align-items: center;
+}
+.logo {
+   width: 120px;
+}
+.search {
+   width: 50%;
+   height: 80px;
+   margin-left: 30px;
+}
+.search input {
+   width: 80%;
+   height: 35px;
+   border-radius: 20px;
+   background: #FFFFFF;
+   border: 1px solid #8E8E93;
+   box-sizing: border-box;
+   padding-left: 15px;
+}
+.search > img {
+   position: relative;
+   left: -30px;
+}
+.search div.filter {
+   height: 35px;
+   width: 35px;
+   background: #FFFFFF;
+   border: 1px solid #8E8E93;
+   border-radius: 12px;
+   display: flex;
+   position: relative;
+   left: -10px;
+}
+div.filter img {
+   margin : auto;
+}
+.search input:focus {
+   outline: none;
+   border: 1px solid #DB3022;
+   box-shadow: 0 0 6px #DB3022;
+}
+.menu {
+   margin-right: 0;
+   width: 300px;
+   justify-content: flex-end;
+}
+.menu button {
+   height: 35px;
+   width: 100px;
+   margin-left: 8px;
+   border: 1px solid #9B9B9B;
+   border-radius: 24px;
+   background-color: white;
+   color :#8E8E93;
+   cursor: pointer;
+}
+.menu button.login {
+   background-color: #DB3022;
+   color: white;
+   border: none;
+}

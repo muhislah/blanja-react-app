@@ -1,0 +1,25 @@
+.button {
+   width: 100%;
+   height: 48px;
+   border-radius: 40px;
+   background-color : #DB3022;
+   color : white;
+   border : none;
+   cursor: pointer;
+   transition: all 200ms ease-out;
+   font-size: 14px;
+   margin-top: 30px;
+}
+
+.white {
+   border : 1px solid #9B9B9B;
+   background-color: white;
+   color : #9B9B9B;
+}
+
+.button:hover {
+   box-shadow: 0 0 6px #DB3022;
+}
+.button:active{
+   background-color: #96190e;
+}

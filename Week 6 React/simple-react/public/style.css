@@ -1,0 +1,8 @@
+@font-face {
+   font-family: metropolis;
+   src: url('./font/Metropolis-Regular.ttf');
+}
+
+* {
+   font-family: 'metropolis', 'sans-serif';
+}

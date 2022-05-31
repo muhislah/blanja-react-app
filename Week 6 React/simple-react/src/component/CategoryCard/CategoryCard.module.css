@@ -1,0 +1,16 @@
+.card {
+   width : 209px;
+   height : 220px;
+   background-image : var(--bgimage);
+   text-align: center;
+   line-height: 220px;
+   border: 1px solid red;
+   box-sizing: border-box;
+   border-radius: 8px;
+}
+h1.card {
+   font-weight: 700;
+   font-size: 30px;
+   margin: 0;
+   color : white;
+}
